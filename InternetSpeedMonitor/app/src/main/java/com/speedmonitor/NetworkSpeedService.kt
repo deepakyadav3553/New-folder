@@ -6,22 +6,19 @@ import android.app.NotificationManager
 import android.app.PendingIntent
 import android.app.Service
 import android.content.Intent
-import android.graphics.Bitmap
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Paint
-import android.graphics.Typeface
+import android.graphics.PixelFormat
 import android.net.TrafficStats
 import android.os.Handler
 import android.os.IBinder
 import android.os.Looper
+import android.provider.Settings
+import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.View
+import android.view.WindowManager
+import android.widget.TextView
 import androidx.core.app.NotificationCompat
-import androidx.core.graphics.drawable.IconCompat
 
-/**
- * Foreground service that polls TrafficStats every second and updates
- * the persistent notification with current download / upload speeds.
- */
 class NetworkSpeedService : Service() {
 
     companion object {
@@ -34,6 +31,9 @@ class NetworkSpeedService : Service() {
     private var lastRxBytes = 0L
     private var lastTxBytes = 0L
     private var lastTime = 0L
+
+    private var overlayView: View? = null
+    private var windowManager: WindowManager? = null
 
     private val speedRunnable = object : Runnable {
         override fun run() {
@@ -53,24 +53,63 @@ class NetworkSpeedService : Service() {
             return START_NOT_STICKY
         }
 
-        // Initialize baseline counts
         lastRxBytes = TrafficStats.getTotalRxBytes()
         lastTxBytes = TrafficStats.getTotalTxBytes()
         lastTime = System.currentTimeMillis()
 
-        startForeground(NOTIFICATION_ID, buildNotification("↓ 0 B/s", "↑ 0 B/s"))
+        // Foreground notification – IMPORTANCE_MIN so it stays invisible in the shade
+        startForeground(NOTIFICATION_ID, buildSilentNotification())
+
+        // Show floating overlay if permission is granted
+        if (Settings.canDrawOverlays(this)) {
+            showOverlay()
+        }
+
         handler.post(speedRunnable)
         return START_STICKY
     }
 
     override fun onDestroy() {
         handler.removeCallbacks(speedRunnable)
+        removeOverlay()
         super.onDestroy()
     }
 
     override fun onBind(intent: Intent?): IBinder? = null
 
-    // ── Private helpers ──────────────────────────────────────────────────────
+    // ── Overlay ───────────────────────────────────────────────────────────────
+
+    private fun showOverlay() {
+        windowManager = getSystemService(WINDOW_SERVICE) as WindowManager
+
+        overlayView = LayoutInflater.from(this).inflate(R.layout.overlay_speed, null)
+
+        val params = WindowManager.LayoutParams(
+            WindowManager.LayoutParams.WRAP_CONTENT,
+            WindowManager.LayoutParams.WRAP_CONTENT,
+            WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+            WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or
+                    WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL or
+                    WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
+            PixelFormat.TRANSLUCENT
+        ).apply {
+            gravity = Gravity.TOP or Gravity.END
+            x = 8
+            y = 60   // sits just below the status bar
+        }
+
+        windowManager?.addView(overlayView, params)
+    }
+
+    private fun removeOverlay() {
+        try {
+            overlayView?.let { windowManager?.removeView(it) }
+        } catch (_: Exception) {}
+        overlayView = null
+        windowManager = null
+    }
+
+    // ── Speed polling ─────────────────────────────────────────────────────────
 
     private fun updateSpeed() {
         val currentRxBytes = TrafficStats.getTotalRxBytes()
@@ -90,13 +129,16 @@ class NetworkSpeedService : Service() {
         val downText = "↓ ${SpeedFormatter.format(rxSpeed)}"
         val upText   = "↑ ${SpeedFormatter.format(txSpeed)}"
 
-        val notification = buildNotification(downText, upText)
-        val nm = getSystemService(NOTIFICATION_SERVICE) as NotificationManager
-        nm.notify(NOTIFICATION_ID, notification)
+        // Update floating overlay
+        handler.post {
+            overlayView?.findViewById<TextView>(R.id.tvDown)?.text = downText
+            overlayView?.findViewById<TextView>(R.id.tvUp)?.text   = upText
+        }
     }
 
-    private fun buildNotification(downText: String, upText: String): Notification {
-        // Tap notification → open app
+    // ── Notification (silent / invisible) ────────────────────────────────────
+
+    private fun buildSilentNotification(): Notification {
         val openIntent = Intent(this, MainActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_SINGLE_TOP
         }
@@ -105,7 +147,6 @@ class NetworkSpeedService : Service() {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
-        // Stop action
         val stopIntent = Intent(this, NetworkSpeedService::class.java).apply {
             action = ACTION_STOP
         }
@@ -114,72 +155,27 @@ class NetworkSpeedService : Service() {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
-        // Show live download speed as the status bar icon text
-        val speedIcon = speedTextIcon(downText.removePrefix("↓ ").trim())
-
         return NotificationCompat.Builder(this, CHANNEL_ID)
-            .setSmallIcon(speedIcon)
-            .setContentTitle("$downText   $upText")
-            .setContentText("Tap to open · Internet Speed Monitor")
+            .setSmallIcon(R.drawable.ic_speed_notification)
+            .setContentTitle("Speed Monitor")
+            .setContentText("Running – tap to open")
             .setContentIntent(openPi)
             .setOngoing(true)
-            .setPriority(NotificationCompat.PRIORITY_LOW)
-            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+            .setPriority(NotificationCompat.PRIORITY_MIN)   // hides from status bar
             .setOnlyAlertOnce(true)
+            .setSilent(true)
+            .setShowWhen(false)
             .addAction(android.R.drawable.ic_delete, "Stop", stopPi)
             .build()
-    }
-
-    /**
-     * Renders speed text (e.g. "1.2 MB/s") as a white-on-transparent bitmap
-     * so the live speed appears directly in the status bar icon slot.
-     */
-    private fun speedTextIcon(speed: String): IconCompat {
-        val size = 96
-        val bitmap = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888)
-        val canvas = Canvas(bitmap)
-
-        // Split "1.2 MB/s" → value="1.2", unit="MB/s"
-        val parts = speed.trim().split(" ")
-        val value = parts.getOrElse(0) { speed }
-        val unit  = parts.getOrElse(1) { "" }
-
-        val valuePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-            color     = Color.WHITE
-            typeface  = Typeface.DEFAULT_BOLD
-            textAlign = Paint.Align.CENTER
-            textSize  = when {
-                value.length >= 5 -> 26f
-                value.length >= 4 -> 30f
-                else              -> 36f
-            }
-        }
-        val unitPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-            color     = Color.WHITE
-            typeface  = Typeface.DEFAULT
-            textAlign = Paint.Align.CENTER
-            textSize  = 20f
-        }
-
-        // Centre the two lines vertically
-        val totalHeight = valuePaint.textSize + 4f + unitPaint.textSize
-        val topY = (size - totalHeight) / 2f + valuePaint.textSize
-
-        canvas.drawText(value, size / 2f, topY, valuePaint)
-        if (unit.isNotEmpty()) {
-            canvas.drawText(unit, size / 2f, topY + 4f + unitPaint.textSize, unitPaint)
-        }
-
-        return IconCompat.createWithBitmap(bitmap)
     }
 
     private fun createNotificationChannel() {
         val channel = NotificationChannel(
             CHANNEL_ID,
             "Internet Speed Monitor",
-            NotificationManager.IMPORTANCE_LOW
+            NotificationManager.IMPORTANCE_MIN          // no sound, no status-bar icon
         ).apply {
-            description = "Shows real-time internet download and upload speeds"
+            description = "Required to keep the speed service running"
             setShowBadge(false)
         }
         val nm = getSystemService(NOTIFICATION_SERVICE) as NotificationManager

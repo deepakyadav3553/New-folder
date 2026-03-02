@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [androidx.databinding:viewbinding:8.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a0f9a3d1080d1181ce52f3a418708ff3\transformed\viewbinding-8.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e98c6663d789bb60c25f094ce5eb9d12\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e03c2b79887ed0fa1240968d09c86599\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -74,9 +74,13 @@ uses-permission#android.permission.POST_NOTIFICATIONS
 ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:13:5-77
 	android:name
 		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:13:22-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:16:22-75
 application
-ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:15:5-39:19
-INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:15:5-39:19
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:18:5-42:19
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:18:5-42:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e98c6663d789bb60c25f094ce5eb9d12\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e98c6663d789bb60c25f094ce5eb9d12\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e03c2b79887ed0fa1240968d09c86599\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -98,45 +102,45 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\deepa\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:21:9-41
 	android:roundIcon
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:22:9-54
 	android:icon
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:21:9-58
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:24:9-58
 activity#com.speedmonitor.MainActivity
-ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:23:9-31:20
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:26:9-34:20
 	android:label
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:26:13-45
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:29:13-45
 	android:exported
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:27:13-30:29
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:30:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:32:27-74
 service#com.speedmonitor.NetworkSpeedService
-ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:33:9-37:56
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:36:9-40:56
 	android:enabled
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:35:13-35
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:38:13-35
 	android:exported
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:39:13-37
 	android:foregroundServiceType
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:37:13-53
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:40:13-53
 	android:name
-		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:34:13-48
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:37:13-48
 uses-sdk
 INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml

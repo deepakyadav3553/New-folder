@@ -14,10 +14,14 @@ drawable ic_speed_notification
 id btnToggle
 id cardInfo
 id ivIcon
+id overlayRoot
+id tvDown
 id tvStatus
 id tvSubtitle
 id tvTitle
+id tvUp
 layout activity_main
+layout overlay_speed
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

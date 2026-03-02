@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#BB000000"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="4dp">
+
+    <TextView
+        android:id="@+id/tvDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="↓ --"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/tvUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="↑ --"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:fontFamily="monospace" />
+
+</LinearLayout>

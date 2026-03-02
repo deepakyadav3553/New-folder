@@ -1,6 +1,10 @@
 [
     {
-        "merged": "com.speedmonitor.app-mergeDebugResources-30:/layout/activity_main.xml",
-        "source": "com.speedmonitor.app-main-33:/layout/activity_main.xml"
+        "merged": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.speedmonitor.app-mergeDebugResources-30:/layout/overlay_speed.xml",
+        "source": "com.speedmonitor.app-main-33:/layout/overlay_speed.xml"
     }
 ]
