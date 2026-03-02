@@ -6,11 +6,17 @@ import android.app.NotificationManager
 import android.app.PendingIntent
 import android.app.Service
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.Canvas
+import android.graphics.Color
+import android.graphics.Paint
+import android.graphics.Typeface
 import android.net.TrafficStats
 import android.os.Handler
 import android.os.IBinder
 import android.os.Looper
 import androidx.core.app.NotificationCompat
+import androidx.core.graphics.drawable.IconCompat
 
 /**
  * Foreground service that polls TrafficStats every second and updates
@@ -52,7 +58,7 @@ class NetworkSpeedService : Service() {
         lastTxBytes = TrafficStats.getTotalTxBytes()
         lastTime = System.currentTimeMillis()
 
-        startForeground(NOTIFICATION_ID, buildNotification("↓ Measuring...", "↑ Measuring..."))
+        startForeground(NOTIFICATION_ID, buildNotification("↓ 0 B/s", "↑ 0 B/s"))
         handler.post(speedRunnable)
         return START_STICKY
     }
@@ -108,11 +114,13 @@ class NetworkSpeedService : Service() {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
+        // Show live download speed as the status bar icon text
+        val speedIcon = speedTextIcon(downText.removePrefix("↓ ").trim())
+
         return NotificationCompat.Builder(this, CHANNEL_ID)
-            .setSmallIcon(R.drawable.ic_speed_notification)
-            .setContentTitle(downText)
-            .setContentText(upText)
-            .setSubText("Internet Speed")
+            .setSmallIcon(speedIcon)
+            .setContentTitle("$downText   $upText")
+            .setContentText("Tap to open · Internet Speed Monitor")
             .setContentIntent(openPi)
             .setOngoing(true)
             .setPriority(NotificationCompat.PRIORITY_LOW)
@@ -120,6 +128,49 @@ class NetworkSpeedService : Service() {
             .setOnlyAlertOnce(true)
             .addAction(android.R.drawable.ic_delete, "Stop", stopPi)
             .build()
+    }
+
+    /**
+     * Renders speed text (e.g. "1.2 MB/s") as a white-on-transparent bitmap
+     * so the live speed appears directly in the status bar icon slot.
+     */
+    private fun speedTextIcon(speed: String): IconCompat {
+        val size = 96
+        val bitmap = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(bitmap)
+
+        // Split "1.2 MB/s" → value="1.2", unit="MB/s"
+        val parts = speed.trim().split(" ")
+        val value = parts.getOrElse(0) { speed }
+        val unit  = parts.getOrElse(1) { "" }
+
+        val valuePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            color     = Color.WHITE
+            typeface  = Typeface.DEFAULT_BOLD
+            textAlign = Paint.Align.CENTER
+            textSize  = when {
+                value.length >= 5 -> 26f
+                value.length >= 4 -> 30f
+                else              -> 36f
+            }
+        }
+        val unitPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            color     = Color.WHITE
+            typeface  = Typeface.DEFAULT
+            textAlign = Paint.Align.CENTER
+            textSize  = 20f
+        }
+
+        // Centre the two lines vertically
+        val totalHeight = valuePaint.textSize + 4f + unitPaint.textSize
+        val topY = (size - totalHeight) / 2f + valuePaint.textSize
+
+        canvas.drawText(value, size / 2f, topY, valuePaint)
+        if (unit.isNotEmpty()) {
+            canvas.drawText(unit, size / 2f, topY + 4f + unitPaint.textSize, unitPaint)
+        }
+
+        return IconCompat.createWithBitmap(bitmap)
     }
 
     private fun createNotificationChannel() {
