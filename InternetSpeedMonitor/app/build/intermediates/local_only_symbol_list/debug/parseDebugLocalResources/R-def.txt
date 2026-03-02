@@ -8,6 +8,8 @@ color statusActive
 color statusStopped
 color subtitle
 color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 drawable ic_speed_notification
 id btnToggle
 id cardInfo
@@ -16,6 +18,8 @@ id tvStatus
 id tvSubtitle
 id tvTitle
 layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
 string app_name
 string notif_channel_desc
 string notif_channel_name

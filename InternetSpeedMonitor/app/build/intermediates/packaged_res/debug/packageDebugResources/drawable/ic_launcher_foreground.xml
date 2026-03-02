@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple speed meter / WiFi icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 C38.5,30 26,42.5 26,58 C26,65.5 29,72.2 34,77 L40,71 C36.7,67.5 34.5,62.9 34.5,58 C34.5,47.2 43.2,38.5 54,38.5 C64.8,38.5 73.5,47.2 73.5,58 C73.5,62.9 71.3,67.5 68,71 L74,77 C79,72.2 82,65.5 82,58 C82,42.5 69.5,30 54,30Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,46 C47.4,46 42,51.4 42,58 C42,61.7 43.7,65 46.3,67.2 L52,61.5 C51,60.5 50.5,59.3 50.5,58 C50.5,55.5 52.5,53.5 55,53.5 C55.3,53.5 55.6,53.6 55.9,53.6 L61.5,48 C59.8,46.7 57.5,46 54,46Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,56 C52.9,56 52,56.9 52,58 L52,78 L56,78 L56,58 C56,56.9 55.1,56 54,56Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,74 C51.8,74 50,75.8 50,78 C50,80.2 51.8,82 54,82 C56.2,82 58,80.2 58,78 C58,75.8 56.2,74 54,74Z" />
+</vector>
