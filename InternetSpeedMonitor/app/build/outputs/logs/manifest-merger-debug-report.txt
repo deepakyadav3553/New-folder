@@ -1,0 +1,321 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.databinding:viewbinding:8.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a0f9a3d1080d1181ce52f3a418708ff3\transformed\viewbinding-8.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e98c6663d789bb60c25f094ce5eb9d12\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e03c2b79887ed0fa1240968d09c86599\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\8e5c827c6d98380f6f69d7daee2c339e\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\4922b22f854c69ddef994e1bc210d5da\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a27b96f45d83a939b7029d9f30e42bda\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\330d56a4020ef86d50341eb7d056a256\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\deepa\.gradle\caches\8.11.1\transforms\f9dd53654dfadf0a4d13036764e32fe1\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\19afa1304601bbbc22a076a24e0660e9\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\cbfb73cfa8ae81d867937571822db59d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\12fa98340b7e80a828b012a809d3fb2b\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ea2a22ff9733a7ca041737da8278326a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\1d05a425d40985658d3f319113c73c3a\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\d816aaba1678bc84544dee2c500b5cbf\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\6a9278c1e3cfd2210d1edf4904aa7966\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\2802ff61fc3ac3aa375a7514de00b809\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e5905cbf6ad9b9f3b1be15e19068ec63\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\75e74c48f80390d8d990330c4e638489\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a51bdfd64cd342bd72a7a19c2ea19218\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\15b79869cc5aa2843e134192e69ef8f9\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\17254440b51b46e78d0eb9e15a4362e6\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c27275d6b1b39fa77fd5fe0d121c12f7\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a3582f30de661ef90fbf7df9fa23efeb\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\541d4d5ce8d19a8d2ccff48483672aff\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\bbfbbbd17addac768088467cb8d4ec48\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\24f19e31160bf869519c2838aae3e68b\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\b4ce4ba16677e3f66aab002a800777dc\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\6b0e7177ee4e088698cee40341c84741\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ac402642facd7df25a455e4b8818254d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\7119b01562ab958495edef1e0ce09395\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\fb4d8def43444dece88243b232a3be18\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a8ba585033c3f4c403833ba499dcc158\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\63eacfb7802e8787f5e8d6a07b962147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e1c44153eaa9a896f7972e76e9bfe0dd\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\bbacb8c2e760cdefbdbb718c0f4c2341\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9d90cb6dc1a52eff6c5649a95bdc5ae2\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\eb36442fa184c949c43411c7bf547bee\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\35b85ff616698746980a0ea8309571ee\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:9:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:10:5-87
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:10:22-84
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:13:22-74
+application
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:15:5-39:19
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:15:5-39:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e98c6663d789bb60c25f094ce5eb9d12\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e98c6663d789bb60c25f094ce5eb9d12\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e03c2b79887ed0fa1240968d09c86599\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e03c2b79887ed0fa1240968d09c86599\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a8ba585033c3f4c403833ba499dcc158\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a8ba585033c3f4c403833ba499dcc158\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\63eacfb7802e8787f5e8d6a07b962147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\63eacfb7802e8787f5e8d6a07b962147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:18:9-41
+	android:roundIcon
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:21:9-58
+activity#com.speedmonitor.MainActivity
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:23:9-31:20
+	android:label
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:26:13-45
+	android:exported
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:29:27-74
+service#com.speedmonitor.NetworkSpeedService
+ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:33:9-37:56
+	android:enabled
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:36:13-37
+	android:foregroundServiceType
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:37:13-53
+	android:name
+		ADDED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml:34:13-48
+uses-sdk
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a0f9a3d1080d1181ce52f3a418708ff3\transformed\viewbinding-8.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a0f9a3d1080d1181ce52f3a418708ff3\transformed\viewbinding-8.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e98c6663d789bb60c25f094ce5eb9d12\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e98c6663d789bb60c25f094ce5eb9d12\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e03c2b79887ed0fa1240968d09c86599\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e03c2b79887ed0fa1240968d09c86599\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\8e5c827c6d98380f6f69d7daee2c339e\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\8e5c827c6d98380f6f69d7daee2c339e\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\4922b22f854c69ddef994e1bc210d5da\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\4922b22f854c69ddef994e1bc210d5da\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a27b96f45d83a939b7029d9f30e42bda\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a27b96f45d83a939b7029d9f30e42bda\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\330d56a4020ef86d50341eb7d056a256\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\330d56a4020ef86d50341eb7d056a256\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\deepa\.gradle\caches\8.11.1\transforms\f9dd53654dfadf0a4d13036764e32fe1\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\deepa\.gradle\caches\8.11.1\transforms\f9dd53654dfadf0a4d13036764e32fe1\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\19afa1304601bbbc22a076a24e0660e9\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\19afa1304601bbbc22a076a24e0660e9\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\cbfb73cfa8ae81d867937571822db59d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\cbfb73cfa8ae81d867937571822db59d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\12fa98340b7e80a828b012a809d3fb2b\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\12fa98340b7e80a828b012a809d3fb2b\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ea2a22ff9733a7ca041737da8278326a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ea2a22ff9733a7ca041737da8278326a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\1d05a425d40985658d3f319113c73c3a\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\1d05a425d40985658d3f319113c73c3a\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\d816aaba1678bc84544dee2c500b5cbf\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\d816aaba1678bc84544dee2c500b5cbf\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\6a9278c1e3cfd2210d1edf4904aa7966\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\6a9278c1e3cfd2210d1edf4904aa7966\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\2802ff61fc3ac3aa375a7514de00b809\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\2802ff61fc3ac3aa375a7514de00b809\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e5905cbf6ad9b9f3b1be15e19068ec63\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e5905cbf6ad9b9f3b1be15e19068ec63\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\75e74c48f80390d8d990330c4e638489\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\75e74c48f80390d8d990330c4e638489\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a51bdfd64cd342bd72a7a19c2ea19218\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a51bdfd64cd342bd72a7a19c2ea19218\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\15b79869cc5aa2843e134192e69ef8f9\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\15b79869cc5aa2843e134192e69ef8f9\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\17254440b51b46e78d0eb9e15a4362e6\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\17254440b51b46e78d0eb9e15a4362e6\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c27275d6b1b39fa77fd5fe0d121c12f7\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c27275d6b1b39fa77fd5fe0d121c12f7\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a3582f30de661ef90fbf7df9fa23efeb\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a3582f30de661ef90fbf7df9fa23efeb\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\541d4d5ce8d19a8d2ccff48483672aff\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\541d4d5ce8d19a8d2ccff48483672aff\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\bbfbbbd17addac768088467cb8d4ec48\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\bbfbbbd17addac768088467cb8d4ec48\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\24f19e31160bf869519c2838aae3e68b\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\24f19e31160bf869519c2838aae3e68b\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\b4ce4ba16677e3f66aab002a800777dc\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\b4ce4ba16677e3f66aab002a800777dc\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\6b0e7177ee4e088698cee40341c84741\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\6b0e7177ee4e088698cee40341c84741\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ac402642facd7df25a455e4b8818254d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ac402642facd7df25a455e4b8818254d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\7119b01562ab958495edef1e0ce09395\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\7119b01562ab958495edef1e0ce09395\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\fb4d8def43444dece88243b232a3be18\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\fb4d8def43444dece88243b232a3be18\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a8ba585033c3f4c403833ba499dcc158\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\a8ba585033c3f4c403833ba499dcc158\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\63eacfb7802e8787f5e8d6a07b962147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\63eacfb7802e8787f5e8d6a07b962147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e1c44153eaa9a896f7972e76e9bfe0dd\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\e1c44153eaa9a896f7972e76e9bfe0dd\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\bbacb8c2e760cdefbdbb718c0f4c2341\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\bbacb8c2e760cdefbdbb718c0f4c2341\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9d90cb6dc1a52eff6c5649a95bdc5ae2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9d90cb6dc1a52eff6c5649a95bdc5ae2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\eb36442fa184c949c43411c7bf547bee\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\eb36442fa184c949c43411c7bf547bee\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\35b85ff616698746980a0ea8309571ee\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\35b85ff616698746980a0ea8309571ee\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\deepa\OneDrive\Desktop\New folder\InternetSpeedMonitor\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\63eacfb7802e8787f5e8d6a07b962147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\63eacfb7802e8787f5e8d6a07b962147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\dd0c5a6175c1fe94db5a154bb04b3c36\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.speedmonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.speedmonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\c3b625341d0398e9de3718fde897822a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\deepa\.gradle\caches\8.11.1\transforms\ddd5965ccf99d43f31b99261ab0a6d5d\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\deepa\.gradle\caches\8.11.1\transforms\9a1dd50b077d1a4decd134226db2e370\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

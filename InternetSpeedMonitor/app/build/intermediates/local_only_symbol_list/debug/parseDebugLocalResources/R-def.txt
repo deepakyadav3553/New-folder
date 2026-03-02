@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color background
+color black
+color cardBackground
+color statusActive
+color statusStopped
+color subtitle
+color white
+drawable ic_speed_notification
+id btnToggle
+id cardInfo
+id ivIcon
+id tvStatus
+id tvSubtitle
+id tvTitle
+layout activity_main
+string app_name
+string notif_channel_desc
+string notif_channel_name
+string start_monitoring
+string stop_monitoring
+style Theme.InternetSpeedMonitor

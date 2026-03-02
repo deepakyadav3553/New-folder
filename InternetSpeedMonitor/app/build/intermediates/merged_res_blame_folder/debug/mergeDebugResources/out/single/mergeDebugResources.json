@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.speedmonitor.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.speedmonitor.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.speedmonitor.app-debug-31:/drawable_ic_speed_notification.xml.flat",
+        "source": "com.speedmonitor.app-main-33:/drawable/ic_speed_notification.xml"
+    }
+]
