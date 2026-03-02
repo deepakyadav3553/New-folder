@@ -1,30 +1,30 @@
 [
     {
-        "merged": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-debug-31:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-main-33:\\layout\\activity_main.xml"
+        "merged": "com.speedmonitor.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.speedmonitor.app-main-33:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.speedmonitor.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.speedmonitor.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-main-33:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.speedmonitor.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.speedmonitor.app-main-33:/layout/activity_main.xml"
     },
     {
         "merged": "com.speedmonitor.app-debug-31:/layout_overlay_speed.xml.flat",
         "source": "com.speedmonitor.app-main-33:/layout/overlay_speed.xml"
     },
     {
-        "merged": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-debug-31:\\drawable_ic_speed_notification.xml.flat",
-        "source": "C:\\Users\\deepa\\.gradle\\daemon\\8.11.1\\com.speedmonitor.app-main-33:\\drawable\\ic_speed_notification.xml"
+        "merged": "com.speedmonitor.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.speedmonitor.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.speedmonitor.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.speedmonitor.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.speedmonitor.app-debug-31:/drawable_ic_speed_notification.xml.flat",
+        "source": "com.speedmonitor.app-main-33:/drawable/ic_speed_notification.xml"
     }
 ]

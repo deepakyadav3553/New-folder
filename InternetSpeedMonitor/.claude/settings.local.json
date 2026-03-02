@@ -5,7 +5,9 @@
       "Bash(./gradlew assembleDebug:*)",
       "Bash(cmd:*)",
       "Bash(powershell:*)",
-      "Bash(\"$GRADLE\":*)"
+      "Bash(\"$GRADLE\":*)",
+      "Bash(cmd.exe:*)",
+      "Bash(powershell.exe:*)"
     ]
   }
 }

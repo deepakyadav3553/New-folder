@@ -4,7 +4,7 @@
             "outputFile": "com.speedmonitor.app-mergeDebugResources-29:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\deepa\\.gradle\\caches\\8.11.1\\transforms\\4922b22f854c69ddef994e1bc210d5da\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\deepa\\.gradle\\caches\\transforms-3\\1b1e55a128708ba73ac1974802687c48\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,26 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\deepa\\.gradle\\caches\\8.11.1\\transforms\\ac402642facd7df25a455e4b8818254d\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "50",
-                        "startColumns": "4",
-                        "startOffsets": "3232",
-                        "endLines": "52",
-                        "endColumns": "12",
-                        "endOffsets": "3377"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\deepa\\.gradle\\caches\\8.11.1\\transforms\\e98c6663d789bb60c25f094ce5eb9d12\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\deepa\\.gradle\\caches\\transforms-3\\447063469e8615b2a93d7d764734e021\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -50,6 +31,25 @@
                         "endLines": "55,59,63,66,69,72,75,78,82,86",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10",
                         "endOffsets": "3593,3735,3896,4106,4313,4520,4723,4925,5190,5463"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\deepa\\.gradle\\caches\\transforms-3\\77986bd291e45f205bf8cdc5c5dedaf7\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3232",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3377"
                     }
                 }
             ]
